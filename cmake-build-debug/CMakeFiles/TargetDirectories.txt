@@ -1,0 +1,8 @@
+D:/MyCpp/cmake-build-debug/CMakeFiles/FIFO.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/LRU.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/disk_FIFO.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/SSTF.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/SCAN.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/CSCAN.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
