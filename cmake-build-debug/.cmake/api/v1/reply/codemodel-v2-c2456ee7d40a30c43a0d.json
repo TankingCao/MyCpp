@@ -20,7 +20,14 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
 					]
 				}
 			],
@@ -40,7 +47,14 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
 					]
 				}
 			],
@@ -58,6 +72,13 @@
 					"id" : "FIFO::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-FIFO-Debug-62c88a02ae36456d3334.json",
 					"name" : "FIFO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FPF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FPF-Debug-0aee16d2b75eaa2f6ccc.json",
+					"name" : "FPF",
 					"projectIndex" : 0
 				},
 				{
@@ -83,9 +104,51 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "Time::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Time-Debug-50ad911a552b16d6ddcd.json",
+					"name" : "Time",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TimeDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TimeDemo-Debug-57fbf1485d0ed0967420.json",
+					"name" : "TimeDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodiaodu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodiaodu-Debug-009511def12cb393563a.json",
+					"name" : "autodiaodu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "disk_FIFO::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-disk_FIFO-Debug-76c165e47dc075fedb71.json",
 					"name" : "disk_FIFO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "processDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-processDemo-Debug-a6dad5c3a8ea7f63fdc7.json",
+					"name" : "processDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "processFIFO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-processFIFO-Debug-25605101e6e599b43897.json",
+					"name" : "processFIFO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test-Debug-5d3f3daa0d83e50b0077.json",
+					"name" : "test",
 					"projectIndex" : 0
 				}
 			]
