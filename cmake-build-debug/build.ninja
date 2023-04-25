@@ -245,40 +245,6 @@ build CSCAN.exe: CXX_EXECUTABLE_LINKER__CSCAN_Debug CMakeFiles/CSCAN.dir/OS/disk
   TARGET_PDB = CSCAN.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target test
-
-
-#############################################
-# Order-only phony target for test
-
-build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
-
-build CMakeFiles/test.dir/OS/Test/test.cpp.obj: CXX_COMPILER__test_unscanned_Debug D$:/MyCpp/OS/Test/test.cpp || cmake_object_order_depends_target_test
-  DEP_FILE = CMakeFiles\test.dir\OS\Test\test.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
-  OBJECT_DIR = CMakeFiles\test.dir
-  OBJECT_FILE_DIR = CMakeFiles\test.dir\OS\Test
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target test
-
-
-#############################################
-# Link the executable test.exe
-
-build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/OS/Test/test.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\test.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = test.exe
-  TARGET_IMPLIB = libtest.dll.a
-  TARGET_PDB = test.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target autodiaodu
 
 
@@ -287,8 +253,8 @@ build test.exe: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/OS/Test/te
 
 build cmake_object_order_depends_target_autodiaodu: phony || CMakeFiles/autodiaodu.dir
 
-build CMakeFiles/autodiaodu.dir/OS/Test/autodiaodu.cpp.obj: CXX_COMPILER__autodiaodu_unscanned_Debug D$:/MyCpp/OS/Test/autodiaodu.cpp || cmake_object_order_depends_target_autodiaodu
-  DEP_FILE = CMakeFiles\autodiaodu.dir\OS\Test\autodiaodu.cpp.obj.d
+build CMakeFiles/autodiaodu.dir/OS/Test/dynamicPriority.cpp.obj: CXX_COMPILER__autodiaodu_unscanned_Debug D$:/MyCpp/OS/Test/dynamicPriority.cpp || cmake_object_order_depends_target_autodiaodu
+  DEP_FILE = CMakeFiles\autodiaodu.dir\OS\Test\dynamicPriority.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
   OBJECT_DIR = CMakeFiles\autodiaodu.dir
@@ -302,7 +268,7 @@ build CMakeFiles/autodiaodu.dir/OS/Test/autodiaodu.cpp.obj: CXX_COMPILER__autodi
 #############################################
 # Link the executable autodiaodu.exe
 
-build autodiaodu.exe: CXX_EXECUTABLE_LINKER__autodiaodu_Debug CMakeFiles/autodiaodu.dir/OS/Test/autodiaodu.cpp.obj
+build autodiaodu.exe: CXX_EXECUTABLE_LINKER__autodiaodu_Debug CMakeFiles/autodiaodu.dir/OS/Test/dynamicPriority.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\autodiaodu.dir
@@ -347,40 +313,6 @@ build processFIFO.exe: CXX_EXECUTABLE_LINKER__processFIFO_Debug CMakeFiles/proce
   TARGET_PDB = processFIFO.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target processDemo
-
-
-#############################################
-# Order-only phony target for processDemo
-
-build cmake_object_order_depends_target_processDemo: phony || CMakeFiles/processDemo.dir
-
-build CMakeFiles/processDemo.dir/OS/Test/processDemo.cpp.obj: CXX_COMPILER__processDemo_unscanned_Debug D$:/MyCpp/OS/Test/processDemo.cpp || cmake_object_order_depends_target_processDemo
-  DEP_FILE = CMakeFiles\processDemo.dir\OS\Test\processDemo.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
-  OBJECT_DIR = CMakeFiles\processDemo.dir
-  OBJECT_FILE_DIR = CMakeFiles\processDemo.dir\OS\Test
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target processDemo
-
-
-#############################################
-# Link the executable processDemo.exe
-
-build processDemo.exe: CXX_EXECUTABLE_LINKER__processDemo_Debug CMakeFiles/processDemo.dir/OS/Test/processDemo.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\processDemo.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = processDemo.exe
-  TARGET_IMPLIB = libprocessDemo.dll.a
-  TARGET_PDB = processDemo.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target FPF
 
 
@@ -415,40 +347,6 @@ build FPF.exe: CXX_EXECUTABLE_LINKER__FPF_Debug CMakeFiles/FPF.dir/OS/Test/FPF.c
   TARGET_PDB = FPF.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Time
-
-
-#############################################
-# Order-only phony target for Time
-
-build cmake_object_order_depends_target_Time: phony || CMakeFiles/Time.dir
-
-build CMakeFiles/Time.dir/OS/Test/Time.cpp.obj: CXX_COMPILER__Time_unscanned_Debug D$:/MyCpp/OS/Test/Time.cpp || cmake_object_order_depends_target_Time
-  DEP_FILE = CMakeFiles\Time.dir\OS\Test\Time.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
-  OBJECT_DIR = CMakeFiles\Time.dir
-  OBJECT_FILE_DIR = CMakeFiles\Time.dir\OS\Test
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target Time
-
-
-#############################################
-# Link the executable Time.exe
-
-build Time.exe: CXX_EXECUTABLE_LINKER__Time_Debug CMakeFiles/Time.dir/OS/Test/Time.cpp.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Time.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = Time.exe
-  TARGET_IMPLIB = libTime.dll.a
-  TARGET_PDB = Time.exe.dbg
-
-# =============================================================================
 # Object build statements for EXECUTABLE target TimeDemo
 
 
@@ -457,8 +355,8 @@ build Time.exe: CXX_EXECUTABLE_LINKER__Time_Debug CMakeFiles/Time.dir/OS/Test/Ti
 
 build cmake_object_order_depends_target_TimeDemo: phony || CMakeFiles/TimeDemo.dir
 
-build CMakeFiles/TimeDemo.dir/OS/Test/TimeDemo.cpp.obj: CXX_COMPILER__TimeDemo_unscanned_Debug D$:/MyCpp/OS/Test/TimeDemo.cpp || cmake_object_order_depends_target_TimeDemo
-  DEP_FILE = CMakeFiles\TimeDemo.dir\OS\Test\TimeDemo.cpp.obj.d
+build CMakeFiles/TimeDemo.dir/OS/Test/RR.cpp.obj: CXX_COMPILER__TimeDemo_unscanned_Debug D$:/MyCpp/OS/Test/RR.cpp || cmake_object_order_depends_target_TimeDemo
+  DEP_FILE = CMakeFiles\TimeDemo.dir\OS\Test\RR.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
   OBJECT_DIR = CMakeFiles\TimeDemo.dir
@@ -472,7 +370,7 @@ build CMakeFiles/TimeDemo.dir/OS/Test/TimeDemo.cpp.obj: CXX_COMPILER__TimeDemo_u
 #############################################
 # Link the executable TimeDemo.exe
 
-build TimeDemo.exe: CXX_EXECUTABLE_LINKER__TimeDemo_Debug CMakeFiles/TimeDemo.dir/OS/Test/TimeDemo.cpp.obj
+build TimeDemo.exe: CXX_EXECUTABLE_LINKER__TimeDemo_Debug CMakeFiles/TimeDemo.dir/OS/Test/RR.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\TimeDemo.dir
@@ -521,19 +419,13 @@ build SCAN: phony SCAN.exe
 
 build SSTF: phony SSTF.exe
 
-build Time: phony Time.exe
-
 build TimeDemo: phony TimeDemo.exe
 
 build autodiaodu: phony autodiaodu.exe
 
 build disk_FIFO: phony disk_FIFO.exe
 
-build processDemo: phony processDemo.exe
-
 build processFIFO: phony processFIFO.exe
-
-build test: phony test.exe
 
 # =============================================================================
 # Folder targets.
@@ -543,7 +435,7 @@ build test: phony test.exe
 #############################################
 # Folder: D:/MyCpp/cmake-build-debug
 
-build all: phony FIFO.exe LRU.exe disk_FIFO.exe SSTF.exe SCAN.exe CSCAN.exe test.exe autodiaodu.exe processFIFO.exe processDemo.exe FPF.exe Time.exe TimeDemo.exe
+build all: phony FIFO.exe LRU.exe disk_FIFO.exe SSTF.exe SCAN.exe CSCAN.exe autodiaodu.exe processFIFO.exe FPF.exe TimeDemo.exe
 
 # =============================================================================
 # Built-in targets

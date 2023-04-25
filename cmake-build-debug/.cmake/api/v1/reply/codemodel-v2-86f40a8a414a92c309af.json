@@ -24,10 +24,7 @@
 						6,
 						7,
 						8,
-						9,
-						10,
-						11,
-						12
+						9
 					]
 				}
 			],
@@ -51,10 +48,7 @@
 						6,
 						7,
 						8,
-						9,
-						10,
-						11,
-						12
+						9
 					]
 				}
 			],
@@ -77,7 +71,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FPF::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FPF-Debug-0aee16d2b75eaa2f6ccc.json",
+					"jsonFile" : "target-FPF-Debug-4d5acb1d2cc0715e463e.json",
 					"name" : "FPF",
 					"projectIndex" : 0
 				},
@@ -104,22 +98,15 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "Time::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Time-Debug-50ad911a552b16d6ddcd.json",
-					"name" : "Time",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "TimeDemo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TimeDemo-Debug-57fbf1485d0ed0967420.json",
+					"jsonFile" : "target-TimeDemo-Debug-9b63bfdd150aa5bf10bd.json",
 					"name" : "TimeDemo",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "autodiaodu::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-autodiaodu-Debug-009511def12cb393563a.json",
+					"jsonFile" : "target-autodiaodu-Debug-7e8ab279d7b8d2d9c284.json",
 					"name" : "autodiaodu",
 					"projectIndex" : 0
 				},
@@ -132,23 +119,9 @@
 				},
 				{
 					"directoryIndex" : 0,
-					"id" : "processDemo::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-processDemo-Debug-a6dad5c3a8ea7f63fdc7.json",
-					"name" : "processDemo",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
 					"id" : "processFIFO::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-processFIFO-Debug-25605101e6e599b43897.json",
+					"jsonFile" : "target-processFIFO-Debug-1b6bc15cd82a32cdd1a2.json",
 					"name" : "processFIFO",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 0,
-					"id" : "test::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-test-Debug-5d3f3daa0d83e50b0077.json",
-					"name" : "test",
 					"projectIndex" : 0
 				}
 			]

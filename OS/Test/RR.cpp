@@ -1,12 +1,26 @@
 #include <iostream>
 #include<vector>
+#include<string>
 #include <algorithm>
 
 using namespace std;
 
+/*
+ * 时间片轮转调度算法
+ * */
+
 //定义进程类
 class Process {
 public:
+
+    Process() = default;
+
+    Process(string n, int ct, int nt) {
+        name = n;
+        createTime = ct;
+        needTime = nt;
+    }
+
     string name;//进程名称
     int createTime = 0;//创建时间
     int needTime = 0;//需要运行的时间
@@ -19,13 +33,12 @@ vector<Process> getProcessList() {
     int num = 0;
     vector<Process> plist;
 
-    cout << "输入调度的进程数目:";
+    cout << "输入需要调度的<进程数目>:";
     cin >> num;
     for (int i = 0; i < num; ++i) {
         Process p;
-        cout << "输入进程名称:";
+        cout << "分别输入<进程名称>、<创建时间>、<运行时间>:";
         cin >> p.name;
-        cout << "分别输入进程的创建时间、需要运行的时间:";
         cin >> p.createTime;
         cin >> p.needTime;
         plist.push_back(p);
@@ -36,13 +49,6 @@ vector<Process> getProcessList() {
     return plist;
 }
 
-//打印队列
-void print(vector<Process> vector) {
-    for (auto i: vector) {
-        cout << i.name << " ";
-    }
-}
-
 //运行时间片轮转调度算法
 void run(vector<Process> plist) {
     int time = 0;//记录时刻
@@ -50,7 +56,7 @@ void run(vector<Process> plist) {
     Process p;//记录未运行完的进程
     p.state = 0;
 
-    cout << "时间\t" << "执行\t" << "就绪\t" << endl;
+    cout << "\n时间\t" << "执行\t" << "就绪\t" << endl;
 
     do {
         cout << time << "~" << time + 1 << "\t";
@@ -96,10 +102,15 @@ void run(vector<Process> plist) {
 
 int main() {
 
-    vector<Process> plist = getProcessList();
-    sort(plist.begin(), plist.end(), [](Process p1, Process p2) { return p1.createTime < p2.createTime; });
-    run(plist);
+    /*    Process p1("A", 0, 3);
+    Process p2("B", 2, 6);
+    Process p3("C", 4, 4);
+    Process p4("D", 6, 5);
+    Process p5("E", 8, 2);
 
+    vector<Process> plist = {p1, p5, p3, p4, p2};*/
+
+    run(getProcessList());
 
     system("pause");
     return 0;

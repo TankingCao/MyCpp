@@ -1,4 +1,5 @@
 #include<iostream>
+#include<string>
 #include<vector>
 #include<algorithm>
 
@@ -11,25 +12,11 @@ using namespace std;
 //定义进程类
 class Process {
 public:
-    Process() = default;
-
-    Process(string n, int ct, int nt) {
-        name = n;
-        createTime = ct;
-        needTime = nt;
-    }
 
     string name;//进程名
     int createTime = 0;//创建时间
     int needTime = 0;//需要运行的时间
     int runTime = 0;//已经运行的时间
-};
-
-class MySort {
-public:
-    bool operator()(Process p1, Process p2) {
-        return p1.createTime < p2.createTime;
-    }
 };
 
 //获取所有进程并根据时间排序
@@ -40,18 +27,17 @@ vector<Process> getProcessList() {
     cin >> processNum;
     for (int i = 0; i < processNum; i++) {
         Process p;
-        cout << "输入<进程名>:";
+        cout << "输入<进程名>、<创建时间>、<需要运行时间>:";
         cin >> p.name;
-        cout << "分别输入<创建时间>、<需要运行时间>:";
         cin >> p.createTime;
         cin >> p.needTime;
         pcb.push_back(p);
     }
-    sort(pcb.begin(), pcb.end(), MySort());
+    sort(pcb.begin(), pcb.end(), [](Process p1, Process p2) { return p1.createTime < p2.createTime; });
     return pcb;
 }
 
-void runFIFO(vector<Process> plist) {
+void runFCFS(vector<Process> plist) {
     int time = 0;
     cout << "\n时间\t" << "执行\t" << "就绪\t" << endl;
 
@@ -80,7 +66,7 @@ void runFIFO(vector<Process> plist) {
 
 int main() {
     vector<Process> plist = getProcessList();
-    runFIFO(plist);
+    runFCFS(plist);
 
     system("pause");
     return 0;

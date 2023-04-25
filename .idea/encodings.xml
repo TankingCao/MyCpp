@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
     <file url="file://$PROJECT_DIR$/CMakeLists.txt" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OS/Test/processFCFS.cpp" charset="GBK" />
     <file url="file://$PROJECT_DIR$/OS/page/FIFO.cpp" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>

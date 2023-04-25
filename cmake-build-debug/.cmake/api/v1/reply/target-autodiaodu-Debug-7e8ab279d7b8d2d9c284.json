@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "Time.exe"
+			"path" : "autodiaodu.exe"
 		},
 		{
-			"path" : "Time.pdb"
+			"path" : "autodiaodu.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -28,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 23,
+				"line" : 18,
 				"parent" : 0
 			},
 			{
@@ -100,7 +100,7 @@
 			]
 		}
 	],
-	"id" : "Time::@6890427a1f51a3e7e1df",
+	"id" : "autodiaodu::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -120,8 +120,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "Time",
-	"nameOnDisk" : "Time.exe",
+	"name" : "autodiaodu",
+	"nameOnDisk" : "autodiaodu.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -142,7 +142,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "OS/Test/Time.cpp",
+			"path" : "OS/Test/dynamicPriority.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

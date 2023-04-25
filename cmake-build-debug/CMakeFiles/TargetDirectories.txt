@@ -4,12 +4,9 @@ D:/MyCpp/cmake-build-debug/CMakeFiles/disk_FIFO.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/SSTF.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/SCAN.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/CSCAN.dir
-D:/MyCpp/cmake-build-debug/CMakeFiles/test.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/autodiaodu.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/processFIFO.dir
-D:/MyCpp/cmake-build-debug/CMakeFiles/processDemo.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/FPF.dir
-D:/MyCpp/cmake-build-debug/CMakeFiles/Time.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/TimeDemo.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
