@@ -12,6 +12,13 @@ using namespace std;
 //定义进程类
 class Process {
 public:
+    Process() = default;
+
+    Process(string n, int ct, int nt) {
+        name = n;
+        createTime = ct;
+        needTime = nt;
+    }
 
     string name;//进程名
     int createTime = 0;//创建时间
@@ -65,8 +72,16 @@ void runFCFS(vector<Process> plist) {
 }
 
 int main() {
-    vector<Process> plist = getProcessList();
-    runFCFS(plist);
+
+    Process p1("A", 0, 3);
+    Process p2("B", 2, 6);
+    Process p3("C", 4, 4);
+    Process p4("D", 6, 5);
+    Process p5("E", 8, 2);
+
+    vector<Process> plist = {p1, p5, p3, p4, p2};
+
+    runFCFS(getProcessList());
 
     system("pause");
     return 0;

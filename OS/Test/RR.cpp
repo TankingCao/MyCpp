@@ -102,7 +102,7 @@ void run(vector<Process> plist) {
 
 int main() {
 
-    /*    Process p1("A", 0, 3);
+/*    Process p1("A", 0, 3);
     Process p2("B", 2, 6);
     Process p3("C", 4, 4);
     Process p4("D", 6, 5);
