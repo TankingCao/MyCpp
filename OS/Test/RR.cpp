@@ -50,7 +50,7 @@ vector<Process> getProcessList() {
 }
 
 //运行时间片轮转调度算法
-void run(vector<Process> plist) {
+void runRR(vector<Process> plist) {
     int time = 0;//记录时刻
     vector<Process> ready;//就绪队列
     Process p;//记录未运行完的进程
@@ -110,7 +110,7 @@ int main() {
 
     vector<Process> plist = {p1, p5, p3, p4, p2};*/
 
-    run(getProcessList());
+    runRR(getProcessList());
 
     system("pause");
     return 0;

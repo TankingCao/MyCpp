@@ -8,5 +8,8 @@ D:/MyCpp/cmake-build-debug/CMakeFiles/autodiaodu.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/processFIFO.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/FPF.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/TimeDemo.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/FPF_Rob.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/SPF.dir
+D:/MyCpp/cmake-build-debug/CMakeFiles/HRN.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/MyCpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir

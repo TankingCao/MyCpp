@@ -287,8 +287,8 @@ build autodiaodu.exe: CXX_EXECUTABLE_LINKER__autodiaodu_Debug CMakeFiles/autodia
 
 build cmake_object_order_depends_target_processFIFO: phony || CMakeFiles/processFIFO.dir
 
-build CMakeFiles/processFIFO.dir/OS/Test/processFCFS.cpp.obj: CXX_COMPILER__processFIFO_unscanned_Debug D$:/MyCpp/OS/Test/processFCFS.cpp || cmake_object_order_depends_target_processFIFO
-  DEP_FILE = CMakeFiles\processFIFO.dir\OS\Test\processFCFS.cpp.obj.d
+build CMakeFiles/processFIFO.dir/OS/Test/FCFS.cpp.obj: CXX_COMPILER__processFIFO_unscanned_Debug D$:/MyCpp/OS/Test/FCFS.cpp || cmake_object_order_depends_target_processFIFO
+  DEP_FILE = CMakeFiles\processFIFO.dir\OS\Test\FCFS.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
   OBJECT_DIR = CMakeFiles\processFIFO.dir
@@ -302,7 +302,7 @@ build CMakeFiles/processFIFO.dir/OS/Test/processFCFS.cpp.obj: CXX_COMPILER__proc
 #############################################
 # Link the executable processFIFO.exe
 
-build processFIFO.exe: CXX_EXECUTABLE_LINKER__processFIFO_Debug CMakeFiles/processFIFO.dir/OS/Test/processFCFS.cpp.obj
+build processFIFO.exe: CXX_EXECUTABLE_LINKER__processFIFO_Debug CMakeFiles/processFIFO.dir/OS/Test/FCFS.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\processFIFO.dir
@@ -380,6 +380,108 @@ build TimeDemo.exe: CXX_EXECUTABLE_LINKER__TimeDemo_Debug CMakeFiles/TimeDemo.di
   TARGET_IMPLIB = libTimeDemo.dll.a
   TARGET_PDB = TimeDemo.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target FPF_Rob
+
+
+#############################################
+# Order-only phony target for FPF_Rob
+
+build cmake_object_order_depends_target_FPF_Rob: phony || CMakeFiles/FPF_Rob.dir
+
+build CMakeFiles/FPF_Rob.dir/OS/Test/FPF_Rob.cpp.obj: CXX_COMPILER__FPF_Rob_unscanned_Debug D$:/MyCpp/OS/Test/FPF_Rob.cpp || cmake_object_order_depends_target_FPF_Rob
+  DEP_FILE = CMakeFiles\FPF_Rob.dir\OS\Test\FPF_Rob.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
+  OBJECT_DIR = CMakeFiles\FPF_Rob.dir
+  OBJECT_FILE_DIR = CMakeFiles\FPF_Rob.dir\OS\Test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FPF_Rob
+
+
+#############################################
+# Link the executable FPF_Rob.exe
+
+build FPF_Rob.exe: CXX_EXECUTABLE_LINKER__FPF_Rob_Debug CMakeFiles/FPF_Rob.dir/OS/Test/FPF_Rob.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FPF_Rob.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FPF_Rob.exe
+  TARGET_IMPLIB = libFPF_Rob.dll.a
+  TARGET_PDB = FPF_Rob.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target SPF
+
+
+#############################################
+# Order-only phony target for SPF
+
+build cmake_object_order_depends_target_SPF: phony || CMakeFiles/SPF.dir
+
+build CMakeFiles/SPF.dir/OS/Test/SPF.cpp.obj: CXX_COMPILER__SPF_unscanned_Debug D$:/MyCpp/OS/Test/SPF.cpp || cmake_object_order_depends_target_SPF
+  DEP_FILE = CMakeFiles\SPF.dir\OS\Test\SPF.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
+  OBJECT_DIR = CMakeFiles\SPF.dir
+  OBJECT_FILE_DIR = CMakeFiles\SPF.dir\OS\Test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target SPF
+
+
+#############################################
+# Link the executable SPF.exe
+
+build SPF.exe: CXX_EXECUTABLE_LINKER__SPF_Debug CMakeFiles/SPF.dir/OS/Test/SPF.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\SPF.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = SPF.exe
+  TARGET_IMPLIB = libSPF.dll.a
+  TARGET_PDB = SPF.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target HRN
+
+
+#############################################
+# Order-only phony target for HRN
+
+build cmake_object_order_depends_target_HRN: phony || CMakeFiles/HRN.dir
+
+build CMakeFiles/HRN.dir/OS/Test/HRN.cpp.obj: CXX_COMPILER__HRN_unscanned_Debug D$:/MyCpp/OS/Test/HRN.cpp || cmake_object_order_depends_target_HRN
+  DEP_FILE = CMakeFiles\HRN.dir\OS\Test\HRN.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
+  OBJECT_DIR = CMakeFiles\HRN.dir
+  OBJECT_FILE_DIR = CMakeFiles\HRN.dir\OS\Test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target HRN
+
+
+#############################################
+# Link the executable HRN.exe
+
+build HRN.exe: CXX_EXECUTABLE_LINKER__HRN_Debug CMakeFiles/HRN.dir/OS/Test/HRN.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\HRN.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = HRN.exe
+  TARGET_IMPLIB = libHRN.dll.a
+  TARGET_PDB = HRN.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -413,9 +515,15 @@ build FIFO: phony FIFO.exe
 
 build FPF: phony FPF.exe
 
+build FPF_Rob: phony FPF_Rob.exe
+
+build HRN: phony HRN.exe
+
 build LRU: phony LRU.exe
 
 build SCAN: phony SCAN.exe
+
+build SPF: phony SPF.exe
 
 build SSTF: phony SSTF.exe
 
@@ -435,7 +543,7 @@ build processFIFO: phony processFIFO.exe
 #############################################
 # Folder: D:/MyCpp/cmake-build-debug
 
-build all: phony FIFO.exe LRU.exe disk_FIFO.exe SSTF.exe SCAN.exe CSCAN.exe autodiaodu.exe processFIFO.exe FPF.exe TimeDemo.exe
+build all: phony FIFO.exe LRU.exe disk_FIFO.exe SSTF.exe SCAN.exe CSCAN.exe autodiaodu.exe processFIFO.exe FPF.exe TimeDemo.exe FPF_Rob.exe SPF.exe HRN.exe
 
 # =============================================================================
 # Built-in targets

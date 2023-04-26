@@ -1,5 +1,9 @@
-/*
- * 抢占式最高优先级优先调度算法（优先数越高优先级越低）
+/**
+ *  <h1 color="#10ac84">Created by 木杉 on 「2023/4/26/ 026」 下午 09:46:52</h1>
+ */
+
+/**
+ * <h1 color="#10ac84">最高响应比优先调度算法（非抢占）</h1>
  * */
 
 #include <iostream>
@@ -13,18 +17,16 @@ class Process {
 public:
     Process() = default;
 
-    Process(string n, int ct, int nt, int p) {
+    Process(string n, int ct, int nt) {
         name = n;
         createTime = ct;
         needTime = nt;
-        priority = p;
     }
 
     string name;//进程名
     int createTime = 0;//创建时间
     int needTime = 0;//需要运行的时间
     int runTime = 0;//已经运行的时间
-    int priority = 0;//进程优先数
 };
 
 //获取输入的所有进程返回进程列表
@@ -48,7 +50,7 @@ vector<Process> getProcessList() {
     return plist;
 }
 
-void runFPF_Rob(vector<Process> plist) {
+void runHRN(vector<Process> plist) {
     int time = 0;//记录运行的时刻
     vector<Process> ready;//就绪队列
     Process p;//记录未运行完的进程
@@ -64,15 +66,16 @@ void runFPF_Rob(vector<Process> plist) {
             }
         }
 
-        //插入上次未运行完成的进程
-        if (p.runTime != p.needTime) {
-            ready.push_back(p);
-        }
-
-        //对就绪队列中的进程按照优先级（优先数越大优先级越低）进行排序
-        sort(ready.begin(), ready.end(), [](Process p1, Process p2) {
-            return p1.priority < p2.priority;
+        //按照最高响应比降序排序（最高响应比先运行）
+        sort(ready.begin(), ready.end(), [time](Process p1, Process p2) {
+            return (time - p1.createTime + p1.needTime) / p1.needTime >
+                   (time - p2.createTime + p2.needTime) / p2.needTime;
         });
+
+        //插入上次未运行完成的进程，因为是非抢占式的,所以上次未运行完的先让它运行完
+        if (p.runTime != p.needTime) {
+            ready.insert(ready.begin() + 0, p);
+        }
 
         //取出就绪队列中的第一个进程（优先级最高的进程）运行
         ready[0].runTime++;
@@ -97,16 +100,23 @@ void runFPF_Rob(vector<Process> plist) {
 
 }
 
-int main() {
+//测试用例
+void test() {
     vector<Process> plist = {
-            {"p1", 0, 3, 3},
-            {"p2", 2, 6, 5},
-            {"p3", 4, 4, 1},
-            {"p4", 6, 5, 2},
-            {"p5", 8, 2, 4}
+            {"p1", 0, 3},
+            {"p2", 2, 6},
+            {"p3", 4, 4},
+            {"p4", 6, 5},
+            {"p5", 8, 2}
     };
+    runHRN(plist);
+}
 
-    runFPF_Rob(plist);
+int main() {
+
+    test();
+
+//    runHRN(getProcessList());
 
     getchar();
     return 0;

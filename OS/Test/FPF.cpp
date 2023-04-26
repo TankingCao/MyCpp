@@ -1,5 +1,9 @@
-/*
- * 抢占式最高优先级优先调度算法（优先数越高优先级越低）
+/**
+ *  <h1 color="#10ac84">Created by 木杉 on 「2023/4/26/ 026」 下午 09:06:35</h1>
+ */
+
+/**
+ * <h1 color="#10ac84">非抢占式的最高优先级优先调度算法</h1>
  * */
 
 #include <iostream>
@@ -48,7 +52,7 @@ vector<Process> getProcessList() {
     return plist;
 }
 
-void runFPF_Rob(vector<Process> plist) {
+void runFPF(vector<Process> plist) {
     int time = 0;//记录运行的时刻
     vector<Process> ready;//就绪队列
     Process p;//记录未运行完的进程
@@ -64,15 +68,15 @@ void runFPF_Rob(vector<Process> plist) {
             }
         }
 
-        //插入上次未运行完成的进程
-        if (p.runTime != p.needTime) {
-            ready.push_back(p);
-        }
-
         //对就绪队列中的进程按照优先级（优先数越大优先级越低）进行排序
         sort(ready.begin(), ready.end(), [](Process p1, Process p2) {
             return p1.priority < p2.priority;
         });
+
+        //插入上次未运行完成的进程
+        if (p.runTime != p.needTime) {
+            ready.insert(ready.begin()+0, p);
+        }
 
         //取出就绪队列中的第一个进程（优先级最高的进程）运行
         ready[0].runTime++;
@@ -98,6 +102,7 @@ void runFPF_Rob(vector<Process> plist) {
 }
 
 int main() {
+
     vector<Process> plist = {
             {"p1", 0, 3, 3},
             {"p2", 2, 6, 5},
@@ -106,7 +111,7 @@ int main() {
             {"p5", 8, 2, 4}
     };
 
-    runFPF_Rob(plist);
+    runFPF(plist);
 
     getchar();
     return 0;
