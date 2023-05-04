@@ -27,7 +27,11 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14,
+						15,
+						16
 					]
 				}
 			],
@@ -54,7 +58,11 @@
 						9,
 						10,
 						11,
-						12
+						12,
+						13,
+						14,
+						15,
+						16
 					]
 				}
 			],
@@ -65,6 +73,20 @@
 					"id" : "CSCAN::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-CSCAN-Debug-77f57210b7074d974365.json",
 					"name" : "CSCAN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex5-2.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex5-2.2-Debug-f66d1368f4e9b7e16a54.json",
+					"name" : "Ex5-2.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FCFS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FCFS-Debug-5069fee461cc9ddcc290.json",
+					"name" : "FCFS",
 					"projectIndex" : 0
 				},
 				{
@@ -146,6 +168,20 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "ex6-2.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex6-2.1-Debug-ef697e6584387a90a85e.json",
+					"name" : "ex6-2.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex6-2.2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex6-2.2-Debug-f97a62203d4281f40cea.json",
+					"name" : "ex6-2.2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "processFIFO::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-processFIFO-Debug-b19d3d8306752cdd79e6.json",
 					"name" : "processFIFO",
@@ -157,7 +193,7 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/MyCpp/cmake-build-debug",
+		"build" : "D:/MyCpp/cmake-build-debug-mingw",
 		"source" : "D:/MyCpp"
 	},
 	"version" : 

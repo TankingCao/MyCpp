@@ -36,4 +36,5 @@ int index(vector<int>v, int target) {
 		if (v.at(i) == target)
 			return i;
 	}
+    return -1;
 }

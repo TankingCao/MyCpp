@@ -1,6 +1,5 @@
 #include<iostream>
 #include"vector"
-#include<algorithm>
 #include"func.h"
 
 using namespace std;

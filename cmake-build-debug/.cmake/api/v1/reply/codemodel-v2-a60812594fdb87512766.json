@@ -1,0 +1,177 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyCpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CSCAN::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CSCAN-Debug-77f57210b7074d974365.json",
+					"name" : "CSCAN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Ex5-2.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Ex5-2.1-Debug-44bbcc21f8a8c721fa4c.json",
+					"name" : "Ex5-2.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FIFO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FIFO-Debug-62c88a02ae36456d3334.json",
+					"name" : "FIFO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FPF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FPF-Debug-4d5acb1d2cc0715e463e.json",
+					"name" : "FPF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FPF_Rob::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FPF_Rob-Debug-230bdeefb71c994daf73.json",
+					"name" : "FPF_Rob",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "HRN::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-HRN-Debug-b113c677cbbfc6c5cac1.json",
+					"name" : "HRN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "LRU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LRU-Debug-585ca7476fb9e88a8a67.json",
+					"name" : "LRU",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SCAN::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SCAN-Debug-5d15d36a9e5632ac0fae.json",
+					"name" : "SCAN",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SPF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SPF-Debug-6de1e50abd9f8ae20724.json",
+					"name" : "SPF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SSTF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SSTF-Debug-d4282a87a488ae6fc91a.json",
+					"name" : "SSTF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TimeDemo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TimeDemo-Debug-9b63bfdd150aa5bf10bd.json",
+					"name" : "TimeDemo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "autodiaodu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autodiaodu-Debug-7e8ab279d7b8d2d9c284.json",
+					"name" : "autodiaodu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "disk_FIFO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-disk_FIFO-Debug-76c165e47dc075fedb71.json",
+					"name" : "disk_FIFO",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "processFIFO::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-processFIFO-Debug-b19d3d8306752cdd79e6.json",
+					"name" : "processFIFO",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/MyCpp/cmake-build-debug",
+		"source" : "D:/MyCpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

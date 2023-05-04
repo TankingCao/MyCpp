@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/MyCpp/cmake-build-debug/
+cmake_ninja_workdir = D$:/MyCpp/cmake-build-debug-mingw/
 # =============================================================================
 # Object build statements for EXECUTABLE target FIFO
 
@@ -483,45 +483,147 @@ build HRN.exe: CXX_EXECUTABLE_LINKER__HRN_Debug CMakeFiles/HRN.dir/OS/Test/HRN.c
   TARGET_PDB = HRN.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target Ex5-2.1
+# Object build statements for EXECUTABLE target Ex5-2.2
 
 
 #############################################
-# Order-only phony target for Ex5-2.1
+# Order-only phony target for Ex5-2.2
 
-build cmake_object_order_depends_target_Ex5-2.1: phony || CMakeFiles/Ex5-2.1.dir
+build cmake_object_order_depends_target_Ex5-2.2: phony || CMakeFiles/Ex5-2.2.dir
 
-build CMakeFiles/Ex5-2.1.dir/OS/experiment/Ex5-2.1.c.obj: C_COMPILER__Ex5-2.2e1_unscanned_Debug D$:/MyCpp/OS/experiment/Ex5-2.1.c || cmake_object_order_depends_target_Ex5-2.1
-  DEP_FILE = CMakeFiles\Ex5-2.1.dir\OS\experiment\Ex5-2.1.c.obj.d
+build CMakeFiles/Ex5-2.2.dir/OS/experiment/ex5-2.2.cpp.obj: CXX_COMPILER__Ex5-2.2e2_unscanned_Debug D$:/MyCpp/OS/experiment/ex5-2.2.cpp || cmake_object_order_depends_target_Ex5-2.2
+  DEP_FILE = CMakeFiles\Ex5-2.2.dir\OS\experiment\ex5-2.2.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always
   INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
-  OBJECT_DIR = CMakeFiles\Ex5-2.1.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ex5-2.1.dir\OS\experiment
+  OBJECT_DIR = CMakeFiles\Ex5-2.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\Ex5-2.2.dir\OS\experiment
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target Ex5-2.1
+# Link build statements for EXECUTABLE target Ex5-2.2
 
 
 #############################################
-# Link the executable Ex5-2.1.exe
+# Link the executable Ex5-2.2.exe
 
-build Ex5-2.1.exe: C_EXECUTABLE_LINKER__Ex5-2.2e1_Debug CMakeFiles/Ex5-2.1.dir/OS/experiment/Ex5-2.1.c.obj
+build Ex5-2.2.exe: CXX_EXECUTABLE_LINKER__Ex5-2.2e2_Debug CMakeFiles/Ex5-2.2.dir/OS/experiment/ex5-2.2.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\Ex5-2.1.dir
+  OBJECT_DIR = CMakeFiles\Ex5-2.2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = Ex5-2.1.exe
-  TARGET_IMPLIB = libEx5-2.1.dll.a
-  TARGET_PDB = Ex5-2.1.exe.dbg
+  TARGET_FILE = Ex5-2.2.exe
+  TARGET_IMPLIB = libEx5-2.2.dll.a
+  TARGET_PDB = Ex5-2.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target FCFS
+
+
+#############################################
+# Order-only phony target for FCFS
+
+build cmake_object_order_depends_target_FCFS: phony || CMakeFiles/FCFS.dir
+
+build CMakeFiles/FCFS.dir/OS/Test/FCFS.cpp.obj: CXX_COMPILER__FCFS_unscanned_Debug D$:/MyCpp/OS/Test/FCFS.cpp || cmake_object_order_depends_target_FCFS
+  DEP_FILE = CMakeFiles\FCFS.dir\OS\Test\FCFS.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
+  OBJECT_DIR = CMakeFiles\FCFS.dir
+  OBJECT_FILE_DIR = CMakeFiles\FCFS.dir\OS\Test
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target FCFS
+
+
+#############################################
+# Link the executable FCFS.exe
+
+build FCFS.exe: CXX_EXECUTABLE_LINKER__FCFS_Debug CMakeFiles/FCFS.dir/OS/Test/FCFS.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\FCFS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = FCFS.exe
+  TARGET_IMPLIB = libFCFS.dll.a
+  TARGET_PDB = FCFS.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex6-2.1
+
+
+#############################################
+# Order-only phony target for ex6-2.1
+
+build cmake_object_order_depends_target_ex6-2.1: phony || CMakeFiles/ex6-2.1.dir
+
+build CMakeFiles/ex6-2.1.dir/OS/experiment/ex6-2.1.cpp.obj: CXX_COMPILER__ex6-2.2e1_unscanned_Debug D$:/MyCpp/OS/experiment/ex6-2.1.cpp || cmake_object_order_depends_target_ex6-2.1
+  DEP_FILE = CMakeFiles\ex6-2.1.dir\OS\experiment\ex6-2.1.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
+  OBJECT_DIR = CMakeFiles\ex6-2.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex6-2.1.dir\OS\experiment
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex6-2.1
+
+
+#############################################
+# Link the executable ex6-2.1.exe
+
+build ex6-2.1.exe: CXX_EXECUTABLE_LINKER__ex6-2.2e1_Debug CMakeFiles/ex6-2.1.dir/OS/experiment/ex6-2.1.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex6-2.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex6-2.1.exe
+  TARGET_IMPLIB = libex6-2.1.dll.a
+  TARGET_PDB = ex6-2.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ex6-2.2
+
+
+#############################################
+# Order-only phony target for ex6-2.2
+
+build cmake_object_order_depends_target_ex6-2.2: phony || CMakeFiles/ex6-2.2.dir
+
+build CMakeFiles/ex6-2.2.dir/OS/experiment/ex6-2.2.cpp.obj: CXX_COMPILER__ex6-2.2e2_unscanned_Debug D$:/MyCpp/OS/experiment/ex6-2.2.cpp || cmake_object_order_depends_target_ex6-2.2
+  DEP_FILE = CMakeFiles\ex6-2.2.dir\OS\experiment\ex6-2.2.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -ID:/MyCpp/. -ID:/MyCpp/OS -ID:/MyCpp/OS/disk -ID:/MyCpp/OS/page
+  OBJECT_DIR = CMakeFiles\ex6-2.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\ex6-2.2.dir\OS\experiment
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ex6-2.2
+
+
+#############################################
+# Link the executable ex6-2.2.exe
+
+build ex6-2.2.exe: CXX_EXECUTABLE_LINKER__ex6-2.2e2_Debug CMakeFiles/ex6-2.2.dir/OS/experiment/ex6-2.2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\ex6-2.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = ex6-2.2.exe
+  TARGET_IMPLIB = libex6-2.2.dll.a
+  TARGET_PDB = ex6-2.2.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\MyCpp\cmake-build-debug && D:\cmake-3.26.3-windows-x86_64\bin\cmake-gui.exe -SD:\MyCpp -BD:\MyCpp\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\MyCpp\cmake-build-debug-mingw && D:\cmake-3.26.3-windows-x86_64\bin\cmake-gui.exe -SD:\MyCpp -BD:\MyCpp\cmake-build-debug-mingw"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -533,7 +635,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D D:\MyCpp\cmake-build-debug && D:\cmake-3.26.3-windows-x86_64\bin\cmake.exe --regenerate-during-build -SD:\MyCpp -BD:\MyCpp\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D D:\MyCpp\cmake-build-debug-mingw && D:\cmake-3.26.3-windows-x86_64\bin\cmake.exe --regenerate-during-build -SD:\MyCpp -BD:\MyCpp\cmake-build-debug-mingw"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -545,7 +647,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build CSCAN: phony CSCAN.exe
 
-build Ex5-2.1: phony Ex5-2.1.exe
+build Ex5-2.2: phony Ex5-2.2.exe
+
+build FCFS: phony FCFS.exe
 
 build FIFO: phony FIFO.exe
 
@@ -569,6 +673,10 @@ build autodiaodu: phony autodiaodu.exe
 
 build disk_FIFO: phony disk_FIFO.exe
 
+build ex6-2.1: phony ex6-2.1.exe
+
+build ex6-2.2: phony ex6-2.2.exe
+
 build processFIFO: phony processFIFO.exe
 
 # =============================================================================
@@ -577,9 +685,9 @@ build processFIFO: phony processFIFO.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/MyCpp/cmake-build-debug
+# Folder: D:/MyCpp/cmake-build-debug-mingw
 
-build all: phony FIFO.exe LRU.exe disk_FIFO.exe SSTF.exe SCAN.exe CSCAN.exe autodiaodu.exe processFIFO.exe FPF.exe TimeDemo.exe FPF_Rob.exe SPF.exe HRN.exe Ex5-2.1.exe
+build all: phony FIFO.exe LRU.exe disk_FIFO.exe SSTF.exe SCAN.exe CSCAN.exe autodiaodu.exe processFIFO.exe FPF.exe TimeDemo.exe FPF_Rob.exe SPF.exe HRN.exe Ex5-2.2.exe FCFS.exe ex6-2.1.exe ex6-2.2.exe
 
 # =============================================================================
 # Built-in targets
